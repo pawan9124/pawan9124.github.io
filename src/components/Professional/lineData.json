@@ -95,7 +95,7 @@
         },
         {
           "class": "orange",
-          "text": "752265000000"
+          "text": "1993-11-03"
         }
       ]
     },
@@ -403,7 +403,7 @@
         },
         {
           "class": "green",
-          "text": " 'Html', 'Css', 'Scss', 'ReactJS', 'Bootstrap', 'Wordpress', 'NodeJs',"
+          "text": " 'Reactjs', 'Redux', 'Webpack', 'Jest', 'Saas', 'Enzyme', 'AngularJS', 'Nodejs', "
         }
       ]
     },
@@ -412,12 +412,21 @@
       "value": [
         {
           "class": "green",
-          "text": " 'MongoDB', 'JQuery', 'AngularJS', 'PSQL', 'GraphQL', 'Animation' ]"
+          "text": " 'Expressjs', 'HTML', 'CSS','GraphQL', 'MongoDB','PSQL', 'Wordpress', 'Shopify' , 'GIMP',"
         }
       ]
     },
     {
       "line": "25",
+      "value": [
+        {
+          "class": "green",
+          "text": " 'Figma UI Prototype', 'Selenium WebDriver', 'Prometheus'. ]"
+        }
+      ]
+    },
+    {
+      "line": "26",
       "value": [
         {
           "class": "grey",
@@ -430,7 +439,7 @@
       ]
     },
     {
-      "line": "26",
+      "line": "27",
       "value": [
         {
           "class": "white",

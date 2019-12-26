@@ -108,7 +108,7 @@ class Contact extends React.Component {
     const returnMedia = function(icons, link) {
       return (
         <li className="media-list">
-          <a href={link} className="media">
+          <a href={link} className="media" target="_blank">
             <img src={require(`../../images/${icons}`)} alt={icons} />
           </a>
         </li>
@@ -124,7 +124,7 @@ class Contact extends React.Component {
             <button
               type="submit"
               onClick={() =>
-                window.open(require(`../../images/background.jpg`))
+                window.open(require(`../../docs/resume/pawan_resume.pdf`))
               }
               className="btn btn-secondary"
             >
@@ -133,9 +133,15 @@ class Contact extends React.Component {
             {/* </form> */}
           </div>
           <ul className="resume-child media-section">
-            {returnMedia("facebook.svg", "https://facebook.com")}
-            {returnMedia("linkedin.svg", "https://linkedin.com")}
-            {returnMedia("github.svg", "https://github.com")}
+            {returnMedia(
+              "facebook.svg",
+              "https://www.facebook.com/pawan.saket"
+            )}
+            {returnMedia(
+              "linkedin.svg",
+              "https://www.linkedin.com/in/pawan-saket-7978b975/"
+            )}
+            {returnMedia("github.svg", "https://github.com/pawan9124")}
           </ul>
         </div>
         <div className="copy-right">

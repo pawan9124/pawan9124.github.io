@@ -1,6 +1,5 @@
 import React from "react";
 import Cards from "../Cards";
-import ReactImageMagnify from "react-image-magnify";
 import "./style.scss";
 
 class MyWork extends React.Component {
@@ -16,11 +15,11 @@ class MyWork extends React.Component {
         <div className="bullet"></div>
         <h1>Selected Web projects ...</h1>
         <Cards
-          image={"first_project.jpg"}
+          image={"stickyphoto.png"}
           heading={"StickyPhoto to share your journey"}
           cardIndex={"01"}
           isModal={false}
-          link={"https://stickyphoto.com"}
+          link={"https://stickyphoto.herokuapp.com/"}
           doc_title={"StickyPhoto to share your journey"}
           details={["React", "Webpack", "Nodejs", "MongoDB", "Express"]}
           style={{
@@ -31,13 +30,13 @@ class MyWork extends React.Component {
           }}
         />
         <Cards
-          image={"second_project.jpg"}
-          heading={"StickyPhoto to share your journey"}
+          image={"modocop.png"}
+          heading={"Responsive design for model corporation."}
           cardIndex={"02"}
           isModal={false}
-          doc_title={"My change docs"}
-          details="This is about the time we should put some details"
-          link={"https://stickyphoto.com"}
+          doc_title={"Find your best Model"}
+          details={["React", "CSS", "HTML", "Responsive Design"]}
+          link={"https://stickyphoto.herokuapp.com/"}
           style={{
             left: "64%",
             position: "relative",
@@ -48,11 +47,46 @@ class MyWork extends React.Component {
           }}
         />
         <Cards
-          image={"third_project.jpeg"}
-          heading={"StickyPhoto to share your journey"}
+          image={"oncetaste.png"}
+          heading={"Responsive design for restaurant"}
           cardIndex={"03"}
           isModal={false}
-          link={"https://stickyphoto.com"}
+          doc_title={"Taste everything once"}
+          details={["React", "CSS", "HTML", "Responsive Design"]}
+          link={"https://oncetaste.herokuapp.com/"}
+          style={{
+            left: "11%",
+            position: "relative",
+            top: "-25%",
+            height: "max-content",
+            width: "max-content"
+          }}
+        />
+        <Cards
+          image={"casinowar.png"}
+          heading={"Javascript game of casino slot."}
+          cardIndex={"04"}
+          isModal={false}
+          doc_title={"Play Avenger casino slot game"}
+          details={["Javascript", "CSS", "HTML", "webpack"]}
+          link={"https://casinowar.herokuapp.com/"}
+          style={{
+            left: "64%",
+            position: "relative",
+            top: "-8rem",
+            display: "inline-block",
+            height: "max-content",
+            width: "max-content"
+          }}
+        />
+        <Cards
+          image={"collegetalks.png"}
+          heading={"Responsive social network site"}
+          cardIndex={"03"}
+          isModal={false}
+          doc_title={"Know your mates"}
+          details={["Angular", "Mongodb", "Express", "Node"]}
+          link={"https://collegetalksv2.herokuapp.com/"}
           style={{
             left: "11%",
             position: "relative",

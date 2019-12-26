@@ -29,8 +29,8 @@
   .media-list,
   .contact {
     img {
-      height: 20px;
-      width: 20px;
+      height: 68px;
+      width: 30px;
     }
   }
 
@@ -103,12 +103,14 @@
       background: #492c94;
       border-radius: 5px;
       border: 0;
+      cursor: pointer;
     }
   }
   .media-section {
     li {
       display: inline-block;
       margin-left: 20px;
+      cursor: pointer;
     }
   }
   .copy-right {

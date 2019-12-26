@@ -15,7 +15,7 @@ class Cards extends React.Component {
     const modalImg = document.getElementById("imgModal");
     const captionText = document.getElementById("caption");
     modal.style.display = "block";
-    modalImg.src = require(`../../images/${e.target.alt}`);
+    modalImg.src = require(`../../docs/images/${e.target.alt}`);
     captionText.innerHTML = e.target.alt;
     document.getElementById("imgModal").classList.remove("zoomOut");
     document.getElementById("imgModal").classList.remove("zoomIn");
@@ -66,7 +66,7 @@ class Cards extends React.Component {
           <div className="image-cover"></div>
           <img
             className="card-image"
-            src={require(`../../images/${this.props.image}`)}
+            src={require(`../../docs/images/${this.props.image}`)}
             alt={this.props.image}
             onClick={this.showPopup}
           />

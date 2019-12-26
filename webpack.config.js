@@ -46,7 +46,7 @@ exports.default = {
         use: [MiniCssExtractPlugin.loader, "css-loader"]
       },
       {
-        test: /\.(jpg|png|jpeg|gif|svg)$/,
+        test: /\.(jpg|png|jpeg|gif|svg|pdf)$/,
         loader: "file-loader?images=[name].[ext]",
         options: {
           esModule: false
